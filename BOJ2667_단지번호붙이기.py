@@ -34,6 +34,6 @@ for i in range(N):
         cnts.append(cnt)
 
 print(len(cnts))
-cnts.sort()
+cnts.sort() #오름차순
 for i in range(len(cnts)):
-    print(cnts[i])
+    print(cnts[i]) #한 줄씩 출력
